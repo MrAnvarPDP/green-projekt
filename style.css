@@ -1,0 +1,390 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #163a24;
+  padding: 20px 0;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  height: 100%;
+}
+
+.header__menu {
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 600px;
+}
+
+.header__logo {
+  vertical-align: middle;
+}
+
+.header__item a {
+  text-decoration: none;
+  color: #fbfaf7;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header__item {
+  display: inline-block;
+  margin-left: 24px;
+}
+
+.header__btn {
+  padding: 15px 25px;
+  border-radius: 160px;
+  background: #198c36;
+}
+
+.hero {
+  background-color: #163a24;
+  height: 544px;
+}
+
+.hero__info {
+  height: 100%;
+  width: 39%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.hero__img {
+  background-image: url("./main.svg");
+  height: 100%;
+  width: 57%;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hero__title {
+  color: #fbfaf7;
+  font-family: Recoleta;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 65.25px;
+  margin: 120px 0 18px;
+}
+
+.hero__text {
+  color: #fbfaf7;
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.human {
+  height: 500px;
+}
+.human__bg {
+  height: 100%;
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.human__info {
+  height: 100%;
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  height: 100%;
+}
+
+.human__title {
+  color: #163a24;
+  font-family: Recoleta;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;
+  margin: 148px 0 28px;
+}
+
+.human__text {
+  color: #163a24;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 27px;
+}
+
+.human__bg {
+  height: 100%;
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url("./aziz.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 98px;
+}
+.informashin__karpareyshon {
+  background-image: url("./anvar.svg");
+  height: 100px;
+}
+.partner {
+  padding: 50px 0;
+}
+
+.partner__titel {
+  color: #163a24;
+  text-align: center;
+  font-family: Recoleta;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;
+  margin: 113px 0 66px;
+}
+
+.partner__imgs {
+  text-align: center;
+}
+.partner__logo {
+  vertical-align: middle;
+  margin-right: 86px;
+}
+
+.informashin__title {
+  color: #163a24;
+  font-family: Recoleta;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+}
+
+.production {
+  height: 568px;
+  background: #163a24;
+  padding: 130px 0;
+}
+
+.production__title {
+  color: #fbfaf7;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;
+  margin-bottom: 66px;
+}
+
+.production__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.production__item {
+  text-align: center;
+}
+
+.production__text {
+  color: #fbfaf7;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+.production__item img {
+  margin-bottom: 28px;
+}
+
+.production__text {
+  color: #fbfaf7;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+.rambow {
+  height: 775px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f2efe6;
+}
+
+.rambow__titel {
+  color: #163a24;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;
+  padding-top: 114px;
+}
+
+.rambow__text {
+  color: #163a24;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  padding: 27px;
+}
+
+.rambow__img {
+  padding-top: 2px;
+}
+
+.scenes {
+  height: 500px;
+}
+
+.scenes__wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.scenec__info {
+  height: 100%;
+  width: 49%;
+  padding: 90px 110px;
+}
+
+.scenec__img {
+  height: 100%;
+  width: 49%;
+  background-image: url("./humans.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.scenes__titl {
+  color: #163a24;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;
+  margin-bottom: 27px;
+}
+
+.scenes__text {
+  color: #163a24;
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.consider {
+  padding: 114px 0;
+}
+
+.consider__title {
+  color: #163a24;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;
+  margin-bottom: 26px;
+}
+
+.consider__text {
+  color: #163a24;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 18px;
+}
+
+.consider__items {
+  height: 400px;
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.consider__items img {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.class {
+  color: #163a24;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+.consider__info {
+  color: #163a24;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 31.5px;
+  margin-top: 18px;
+  margin-left: 40px;
+}
+
+.consider__item {
+  height: 100%;
+  width: 33%;
+  border-radius: 15px;
+  background: #fbfaf7;
+  box-shadow: 5px 5px 20px 0px #e9e4d5;
+}
+
+.scenec__img_2 {
+  height: 100%;
+  width: 49%;
+  background-image: url("./books.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  padding: 15px 25px;
+  border-radius: 160px;
+  background: #198c36;
+  border: 0;
+}
+
+.btn_text {
+  text-decoration: none;
+  color: #fbfaf7;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.started {
+  height: 415px;
+  background: #163a24;
+}
